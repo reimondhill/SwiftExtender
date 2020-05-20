@@ -1,0 +1,23 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "name" : "SwiftExtender",
+      "hash" : "b61e29eac75606b69905caab2fcd9d5faeebe837b6aa24100966191b8c612e81",
+      "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+    }
+  ],
+  "commitish" : "cc3a1e88f6a6643e93cdcb2bc7d69cc37a991feb",
+  "iOS" : [
+    {
+      "name" : "SwiftExtender",
+      "hash" : "ed703d662bb30dc8c42988c1fc6f4ed2ac877e57531079bc2b8d562d557b29c3",
+      "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+    }
+  ]
+}

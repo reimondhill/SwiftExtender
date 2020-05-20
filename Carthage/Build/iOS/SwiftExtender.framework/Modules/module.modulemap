@@ -1,0 +1,11 @@
+framework module SwiftExtender {
+  umbrella header "SwiftExtender.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftExtender.Swift {
+    header "SwiftExtender-Swift.h"
+    requires objc
+}
