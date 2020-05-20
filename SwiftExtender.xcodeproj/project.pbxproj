@@ -130,11 +130,11 @@
 			isa = PBXGroup;
 			children = (
 				CF516F5024742550009B382D /* Sources */,
-				CF516F5924743D0A009B382D /* Metadata */,
 				CF668553247596C3007C7FF7 /* SwiftExtenderiOSTests */,
 				CF668562247596E2007C7FF7 /* SwiftExtendertvOSTests */,
 				CF6685712475973D007C7FF7 /* SwiftExtenderDemoApplicationiOS */,
 				CF66858924759758007C7FF7 /* SwiftExtenderDemoApplicationtvOS */,
+				CF516F5924743D0A009B382D /* Metadata */,
 				CF516F3B247424F2009B382D /* Products */,
 			);
 			sourceTree = "<group>";
