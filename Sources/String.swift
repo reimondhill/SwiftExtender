@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     ///Holds possible capitalisation style
     enum CapitalisationStyle {
         ///Capitalises all the letters in the String
