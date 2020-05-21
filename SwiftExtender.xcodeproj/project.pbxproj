@@ -11,6 +11,10 @@
 		CF516F54247427BF009B382D /* SwiftExtender.h in Headers */ = {isa = PBXBuildFile; fileRef = CF516F522474276B009B382D /* SwiftExtender.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF516F5624742873009B382D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF516F5524742873009B382D /* UIViewExtensions.swift */; };
 		CF516F5724742873009B382D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF516F5524742873009B382D /* UIViewExtensions.swift */; };
+		CF643A4024766837009C6B0A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF66854C247586FC007C7FF7 /* String.swift */; };
+		CF643A4124766882009C6B0A /* SwiftExtenderiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF668554247596C3007C7FF7 /* SwiftExtenderiOSTests.swift */; };
+		CF643A43247668C7009C6B0A /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF643A42247668C7009C6B0A /* StringTests.swift */; };
+		CF643A4624766921009C6B0A /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF643A42247668C7009C6B0A /* StringTests.swift */; };
 		CF66854D247586FC007C7FF7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF66854C247586FC007C7FF7 /* String.swift */; };
 		CF668555247596C3007C7FF7 /* SwiftExtenderiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF668554247596C3007C7FF7 /* SwiftExtenderiOSTests.swift */; };
 		CF668557247596C3007C7FF7 /* SwiftExtender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF516F3A247424F2009B382D /* SwiftExtender.framework */; };
@@ -54,6 +58,7 @@
 		CF516F5524742873009B382D /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		CF516F5A24743D3D009B382D /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CF516F5B24743D77009B382D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CF643A42247668C7009C6B0A /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		CF66854C247586FC007C7FF7 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		CF668552247596C3007C7FF7 /* SwiftExtenderiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExtenderiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF668554247596C3007C7FF7 /* SwiftExtenderiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtenderiOSTests.swift; sourceTree = "<group>"; };
@@ -183,6 +188,7 @@
 		CF668553247596C3007C7FF7 /* SwiftExtenderiOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				CF643A42247668C7009C6B0A /* StringTests.swift */,
 				CF668554247596C3007C7FF7 /* SwiftExtenderiOSTests.swift */,
 				CF668556247596C3007C7FF7 /* Info.plist */,
 			);
@@ -472,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF643A4024766837009C6B0A /* String.swift in Sources */,
 				CF516F5724742873009B382D /* UIViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF643A43247668C7009C6B0A /* StringTests.swift in Sources */,
 				CF668555247596C3007C7FF7 /* SwiftExtenderiOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +496,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF643A4124766882009C6B0A /* SwiftExtenderiOSTests.swift in Sources */,
+				CF643A4624766921009C6B0A /* StringTests.swift in Sources */,
 				CF668564247596E2007C7FF7 /* SwiftExtendertvOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
